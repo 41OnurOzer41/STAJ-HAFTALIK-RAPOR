@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/c20485228a.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+
+    <title>Rota Gebze</title>
+</head>
+<body>
+    <section id="menu">
+        <div id="logo">ROTA GEBZE</div>
+        <nav>
+            <a href="index.php"><i class="fas fa-home ikon"></i>Anasayfa</a>
+            <a href="kurumsal.php">Tarihi Camiiler</a>
+            <a href="gebze.php">Çeşmeler</a>
+            <a href="haberler.php">Kaleler Ve Kuleler</a>
+            <a href="hamam.php">Han Ve Hamamlar</a>
+            <a href="doga.php">Doğa Turizmi</a>
+            <a href="yemekler.php">Yöresel Yemekler</a>
+            <a href="sehitlik.php">Gebze Şehitliği</a>
+            <a href="iletisim.php">İletişim</a>
+            <a href="panelgiris.php">Yönetici Girişi</a>
+    </section>
+
+    <section id="hakkimizda">
+        <h3>YÖRESEL YEMEKLER<h3>
+        <div id="container">
+            <div id="sol">
+                <h5 id="h5sol">Umaç Çorbası</h5>
+            </div>
+
+            <div id="sag">
+                <p id="psag">Mutfağın olmazsa olmazlarından unun başrolde yer aldığı umaç çorbası, yağ, toz biber ve tuzdan oluşan karışımla bir araya gelince bir harika oluyor. Az malzemeyle hazırlanan her yemeğin daha çok ustalık gerektirdiğinin kanıtı nefis çorba, özellikle soğuk kış günlerinin bir numaralı tercihine dönüşüveriyor.</p>
+            </div>
+
+            <img src="img/umac.jpg" alt="" class="img-fluid mt50">
+
+            <p id="pson">
+            </p>
+        </div>
+    </section>
+
+    <section id="hakkimizda">
+    <div id="container">
+            <div id="sol">
+                <h5 id="h5sol">Ciğceli Kavurma</h5>
+            </div>
+
+            <div id="sag">
+                <p id="psag">Bulgur ya da pirinç pilavının üzerine kuşbaşı doğranıp kavrulmuş misler gibi etler geliyor, zaten bu bile şahane bir lezzetken Kocaeli farkı kendini gösteriyor ve etlerin üzerine misler gibi süt kaymağı geliyor. Süt kaymağına "ciğce" dendiği için de bu nefis yemeğin adı ciğceli kavurma oluyor.
+                </p>
+            </div>
+
+            <img src="img/cigceli-kavurma.jpg" alt="" class="img-fluid mt50">
+
+            <p id="pson">
+            </p>
+        </div>
+    </section>
+
+    <section id="hakkimizda">
+        <div id="container">
+                <div id="sol">
+                    <h5 id="h5sol">Mancar Yemeği</h5>
+                </div>
+    
+                <div id="sag">
+                    <p id="psag">Hodan ve kaldirik otu olarak da bilinen mancardan yapılan bu yemek, biraz emek istiyor. Çünkü yemeği pişirmeye başlamadan önce mancarları ayıklayıp yaklaşık 2 saat kadar soğuk suda bekletmek gerekiyor. Ardından sudan alınıp kısık ateşte haşlanan mancarlar, kavrulmuş soğanla bir araya gelip pişmeye devam ediyor. İçine isteğe göre domates ve bulgur gibi lezzetler de ekleniyor.</p>
+                </div>
+    
+                <img src="img/mancar-yemegi.jpg" alt="" class="img-fluid mt50">
+    
+                <p id="pson">
+                </p>
+            </div>
+        </section>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <script src="owl/script.js"></script>
+    </body>
+    </html>
+
+    
+<?php
+include("baglanti.php");
+?>
